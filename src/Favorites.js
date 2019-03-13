@@ -5,7 +5,7 @@ export default class Favorites extends Component {
     return (
       <div className="favorites">
         <h1>Favorites</h1>
-        {/*list of beys*/}
+        {this.props.faveBeyArr}
       </div>
     );
   }
